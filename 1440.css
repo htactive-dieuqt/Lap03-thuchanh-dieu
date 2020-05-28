@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1440px) {
+    #container {
+        height: 850px;
+        width: 1440px;
+    }
+    #content {
+        margin-top: 100px;
+        margin-bottom: 150px;
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    #anhdep {
+        text-align: right;
+        width: 90px;
+        float: right;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 11px;
+    }
+    ul {
+        font-size: 11px;
+    }
+}
