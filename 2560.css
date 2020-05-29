@@ -1,11 +1,57 @@
 @media only screen and (max-width: 2560px) {
-    #container {
+    /* #container {
         height: 1416px;
         width: 2560px;
-    }
+    } */
     #content {
-        margin-top: 300px;
-        margin-bottom: 400px;
-        margin-left: 800px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-left: 70%;
+        height: 90%;
+        width: 100%;
+    }
+    img {
+        vertical-align: middle;
+    }
+    #header-left {
+        float: left;
+        width: 28%;
+    }
+    #header_right {
+        float: left;
+        width: 72%;
+        text-align: center;
+    }
+    #anhdep {
+        text-align: right;
+        width: 70%;
+        float: right;
+    }
+    h1 {
+        font-size: 230%;
+    }
+    h2 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    p,
+    li {
+        font-size: 100%;
+    }
+    .coppy {
+        float: right;
+        font-size: 100%;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+        padding: 1%;
     }
 }

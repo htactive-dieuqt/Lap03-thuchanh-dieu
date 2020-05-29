@@ -29,9 +29,11 @@
                     <li><a href="contact.html"><strong>Contact</strong></a></li>
                     <li><a href="#"><strong>About</strong></a></li>
                     <li><a class="active" href="main.html"><strong>Home</strong></a></li>
+
+
                 </ul>
                 <!-- <hr style="height:2px;border-width:0;color:coral;background-color:coral"> -->
-                <div class="slideshow-container">
+                <!-- <div class="slideshow-container">
                     <div class="mySlides fade">
                         <img src="hinh24.png" style="width:100%">
                         <div class="text">HT Active</div>
@@ -44,37 +46,30 @@
                         <img src="hinh99.jpg" style="width:100%">
                         <div class="text">HT Active</div>
                     </div>
-                </div>
+                </div> -->
                 <div class="animation1"></div>
             </div>
         </div>
         <div class="body">
-            <!-- Show automation slide -->
-            <h2> This season's guest speakers</h2>
-            <ul>
-                <li>October: <a href=" " class="text-black ">Toobin</a></li>
-                <li>November: <a href=" " class="text-black ">Andrew Ross Sorkin</a></li>
-                <li>January: <a href=" " class="text-red "> Amy Chua</a></li>
-                <li>March: <a href=" " class="text-red ">Carlos Sampson</a></li>
-                <li> Aprill: <a href=" " class="text-red ">Ronan Tynan</a></li>
-            </ul>
+            <h3>CONTACT</h3>
+            <div class="container">
+                <form action_page.php method="GET">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Please input your name">
 
-            <h2> Looking for a unique gift?</h2>
-            <p>Town Hall has the answer. For only $100, you can get a book of tickets for all of the
-                <br> remanining speakrs. And the barganin includes a second book of tickets for a companion.
-                <br>
-                <br>Dr, for $50, you can give yourself the gift of our speakers, and atill get an exrea ticket for
-                <br>companion, but for just one the events.
-                <br>
-                <br>See you at the next show?</p>
-            <p><strong><em>Contact us by phone</em></strong> at (559) 55 1212 for ticket information.</p>
-            <hr style="height:2px;border-width:0;color:coral;background-color:coral ">
-            <p class="coppy ">Coppyright 2015 San Joaquin Valley Town Hall.</p>
-            </span>
+                    <label for="mail">Your Email</label>
+                    <input type="text" id="mail" name="mail" placeholder="Please input your emil address">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What can we do to assist you?">
+
+                    <label for="mesage">Your message</label>
+                    <textarea id="mesage" name="mesage" placeholder="Please let us know your idea" style="height:200px"></textarea>
+
+                    <input type="button" value="SEND">
+                </form>
+            </div>
         </div>
     </div>
-</body>
-
-<script type="text/javascript" src="script.js"></script>
 
 </html>
