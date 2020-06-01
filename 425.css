@@ -15,4 +15,13 @@
         .animation1 {
             display: none;
         }
+        #information1 {
+            width: 100%;
+        }
+        #information2 {
+            width: 100%;
+        }
+        .coppy {
+            font-size: 10px;
+        }
     }

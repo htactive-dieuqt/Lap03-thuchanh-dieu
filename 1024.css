@@ -1,15 +1,7 @@
 @media only screen and (max-width: 1024px) {
     #content {
         padding-top: 5%;
-        padding-bottom: 10%;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-top: 10%;
-        margin-bottom: 0%;
-        margin-left: 12%;
-        margin-right: 10%;
-        height: 70%;
-        width: 80%;
+        height: 90%;
     }
     img {
         vertical-align: middle;
@@ -25,25 +17,25 @@
     }
     #anhdep {
         text-align: right;
-        width: auto;
+        width: 90%;
         float: right;
     }
     h1 {
-        font-size: 180%;
+        font-size: 130%;
     }
     h2 {
-        font-size: 160%;
+        font-size: 110%;
     }
     h3 {
-        font-size: 120%;
+        font-size: 90%;
     }
     p,
     li {
-        font-size: 100%;
+        font-size: 80%;
     }
     .coppy {
         float: right;
-        font-size: 100%;
+        font-size: 50%;
     }
     .slideshow-container {
         max-width: 100%;

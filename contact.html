@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>San Joaquin Valley Town Hall</title>
     <link rel="stylesheet" type="text/css" href="2560.css">
-    <link rel="stylesheet" type="text/css" href="1440.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="1440.css">
     <link rel="stylesheet" type="text/css" href="1024.css">
     <link rel="stylesheet" type="text/css" href="768.css">
     <link rel="stylesheet" type="text/css" href="425.css">
     <link rel="stylesheet" type="text/css" href="375.css">
 </head>
 
-<body>
+<body id="bodyMain">
     <div id="content">
         <div class="header">
             <div id="header-left">
@@ -27,10 +27,8 @@
             <div>
                 <ul class="slide-menu">
                     <li><a href="contact.html"><strong>Contact</strong></a></li>
-                    <li><a href="#"><strong>About</strong></a></li>
+                    <li><a href="about.html"><strong>About</strong></a></li>
                     <li><a class="active" href="main.html"><strong>Home</strong></a></li>
-
-
                 </ul>
                 <!-- <hr style="height:2px;border-width:0;color:coral;background-color:coral"> -->
                 <!-- <div class="slideshow-container">
@@ -46,14 +44,14 @@
                         <img src="hinh99.jpg" style="width:100%">
                         <div class="text">HT Active</div>
                     </div>
-                </div> -->
-                <div class="animation1"></div>
+                </div>
+                <div class="animation1"></div> -->
             </div>
         </div>
         <div class="body">
             <h3>CONTACT</h3>
             <div class="container">
-                <form action_page.php method="GET">
+                <form action_page.php method="POST">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Please input your name">
 
@@ -64,12 +62,24 @@
                     <input type="text" id="subject" name="subject" placeholder="What can we do to assist you?">
 
                     <label for="mesage">Your message</label>
-                    <textarea id="mesage" name="mesage" placeholder="Please let us know your idea" style="height:200px"></textarea>
+                    <textarea id="mesage" name="mesage" placeholder="Please let us know your idea"></textarea>
 
-                    <input type="button" value="SEND">
+                    <input type="button" value="SEND" onclick="showInformation()">
+
+                </form>
+
+                <form>
+                    <p id="name1"></p>
+                    <p id="mail2"></p>
+                    <p id="subject3"></p>
                 </form>
             </div>
+            <hr style="height:2px;border-width:0;color:coral;background-color:coral; width:100%">
+            <p class="coppy ">Coppyright 2015 San Joaquin Valley Town Hall.</p>
         </div>
     </div>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
 
 </html>
